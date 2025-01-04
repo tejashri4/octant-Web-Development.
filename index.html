@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Dream Job</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Find Your Dream Job</h1>
+    </header>
+
+    <section class="hero">
+        <img src="job_search_imagee.jpg" alt="Job Search Image"> 
+        <div class="hero-text">
+            <h2>Your Career Awaits</h2>
+            <p>Upload your resume and let us connect you with exciting opportunities.</p>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>Why Choose Us?</h2>
+        <div class="feature">
+            <img src="fast_matching_icon.png" alt="Fast Matching Icon">
+            <h3>Fast & Accurate Matching</h3>
+            <p>Our AI-powered system matches you with relevant jobs.</p>
+        </div>
+        <div class="feature">
+            <img src="personalized_recommendations_icon.png" alt="Personalized Recommendations Icon">
+            <h3>Personalized Recommendations</h3>
+            <p>Get tailored job suggestions based on your skills and preferences.</p>
+        </div>
+        <div class="feature">
+            <img src="easy_application_icon.png" alt="Easy Application Icon">
+            <h3>Easy Application Process</h3>
+            <p>Apply to jobs directly from our platform.</p>
+        </div>
+    </section>
+
+    <section class="call-to-action">
+        <h2>Start Your Job Search Today</h2>
+        <input type="file" id="resume-upload" accept=".pdf,.doc,.docx">
+        <button id="upload-btn">Upload Resume</button>
+
+        <div id="success-message" style="display: none;">
+            <h3>Resume Uploaded Successfully!</h3>
+            <p>We'll start searching for your dream job.</p>
+        </div>
+
+        <div id="error-message" style="display: none;">
+            <h3>Error Uploading Resume</h3>
+            <p>Please try again later.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Job Search Platform</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
